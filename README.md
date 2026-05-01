@@ -1,50 +1,66 @@
-# Welcome to your Expo app 👋
+# 🛒 Pantry Pal Pro
+**The Intelligent Kitchen Assistant**
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Pantry Pal Pro is a state-of-the-art mobile application designed to eliminate food waste and simplify grocery management. Built with a premium "Deep Void" aesthetic, it combines cloud synchronization, AI-powered recipes, and intelligent scanning to keep your kitchen running like a well-oiled machine.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Key Features
 
+### 🔐 Secure Authentication
+![Login Screen](assests/screenshots/login.png) | ![Signup Screen](assests/screenshots/signup.png)
+--- | ---
+*Protect your data with encrypted accounts. Pantry Pal Pro uses Firebase Authentication to ensure your inventory is synced safely across all your devices.*
+
+### 📊 Smart Inventory Dashboard
+![Smart Inventory](assests/screenshots/inventory.png)
+*A high-contrast, real-time dashboard providing instant visibility into your stock. Features color-coded urgency indicators for items that are **Expiring Soon** or **Expired**.*
+
+### 🔍 AI Receipt Scanner
+![Receipt Scanner](assests/screenshots/scanner.png)
+*Add your groceries in seconds. Our intelligent scanner identifies items directly from your supermarket receipts, automatically extracting names and quantities.*
+
+### 📜 Digital Receipt Archive
+![Receipt History](assests/screenshots/receipt_history.png)
+*Never lose a bill again. The app maintains a searchable history of all your scanned receipts, allowing you to review past purchases and track your grocery habits over time.*
+
+### 🛒 Automated Shopping Cart
+![Shopping Cart](assests/screenshots/cart.png)
+*Your grocery list, modernized. The app tracks what you're running low on and automatically moves used or expired items to your cart, ready for your next trip.*
+
+### 🍳 Intelligent Recipe Engine
+![Smart Recipes](assests/screenshots/recipes.png)
+*Discover what's for dinner based on what you have. The "Smart Recipes" engine suggests meals using your current stock, highlighting exactly how many ingredients you already have ready.*
+
+### ⚙️ Personalized Experience
+![Settings & Recovery](assests/screenshots/settings.png)
+*Fully customizable with Light and Dark modes. Includes a "Recently Deleted" safety net to restore items accidentally removed from your inventory.*
+
+---
+
+## 🛠️ Tech Stack
+- **Framework**: [Expo](https://expo.dev/) / [React Native](https://reactnative.dev/)
+- **Database**: [Firebase Firestore](https://firebase.google.com/products/firestore) for real-time cloud sync
+- **Authentication**: Firebase Auth (Email/Password)
+- **Recipe Data**: [Spoonacular API](https://spoonacular.com/food-api)
+- **Styling**: Custom "Deep Void" Design System (Vanilla CSS-in-JS)
+
+## 🚀 Getting Started
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/Roshan08srm/pantry-pal-pro.git
+   ```
+2. **Install dependencies**
    ```bash
    npm install
    ```
-
-2. Start the app
-
+3. **Set up Environment Variables**
+   Create a `.env` file and add your keys:
+   ```env
+   EXPO_PUBLIC_SPOONACULAR_API_KEY=your_key_here
+   ```
+4. **Run the app**
    ```bash
    npx expo start
    ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.

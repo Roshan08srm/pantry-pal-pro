@@ -14,14 +14,14 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#0B0B1E"
       },
       "package": "com.roshan.pantrypalpro"
     },
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0B0B1E"
     },
     "plugins": [
       "expo-sqlite",

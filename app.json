@@ -2,6 +2,43 @@
   "expo": {
     "name": "pantry-pal-pro",
     "slug": "pantry-pal-pro",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.roshan.pantrypalpro"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.roshan.pantrypalpro"
+    },
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Pantry Pal Pro to access your camera to scan receipts and groceries."
+        }
+      ],
+      "expo-image-picker"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5fdd3ac4-1196-48d8-9ab5-6b01ce5d9703"
+      }
+    }
   }
 }

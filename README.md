@@ -1,49 +1,48 @@
 # 🛒 Pantry Pal Pro
 **The Intelligent Kitchen Assistant**
 
-Pantry Pal Pro is a state-of-the-art mobile application designed to eliminate food waste and simplify grocery management. Built with a premium "Deep Void" aesthetic, it combines cloud synchronization, AI-powered recipes, and intelligent scanning to keep your kitchen running like a well-oiled machine.
+Pantry Pal Pro is a state-of-the-art mobile application designed to eliminate food waste and simplify grocery management. Built with a premium design system, it combines cloud synchronization, AI-powered recipes, and intelligent scanning to keep your kitchen running like a well-oiled machine.
 
 ---
 
 ## ✨ Key Features
 
-### 🔐 Secure Authentication
-![Login Screen](assests/screenshots/login.png) | ![Signup Screen](assests/screenshots/signup.png)
+### 🎨 Dual-Theme Experience
+![Light Mode Settings](assests/screenshots/settings_light.png) | ![Dark Mode Settings](assests/screenshots/settings.png)
 --- | ---
-*Protect your data with encrypted accounts. Pantry Pal Pro uses Firebase Authentication to ensure your inventory is synced safely across all your devices.*
+*Whether you prefer the **Deep Void** dark mode or the **Brilliant Light** theme, Pantry Pal Pro adapts to your style with a fully responsive and accessible UI.*
 
-### 📊 Smart Inventory Dashboard
-![Smart Inventory](assests/screenshots/inventory.png)
-*A high-contrast, real-time dashboard providing instant visibility into your stock. Features color-coded urgency indicators for items that are **Expiring Soon** or **Expired**.*
+### 🚀 Custom Branding & Splash
+![Splash Screen](assests/screenshots/splash_screen_final.png)
+*A professional, seamless splash screen welcomes you, featuring our custom-designed identity. From the first second, Pantry Pal Pro feels like a premium product.*
 
-### 🔍 AI Receipt Scanner
-![Receipt Scanner](assests/screenshots/scanner.png)
-*Add your groceries in seconds. Our intelligent scanner identifies items directly from your supermarket receipts, automatically extracting names and quantities.*
+### 📊 Smart Inventory (Light & Dark)
+![Light Inventory](assests/screenshots/inventory_light.png) | ![Dark Inventory](assests/screenshots/inventory.png)
+--- | ---
+*Stay organized in any light. Swipe to quickly add items to your cart or move them to the bin. Color-coded urgency bars keep your eyes focused on what matters.*
 
-### 📜 Digital Receipt Archive
-![Receipt History](assests/screenshots/receipt_history.png)
-*Never lose a bill again. The app maintains a searchable history of all your scanned receipts, allowing you to review past purchases and track your grocery habits over time.*
+### 🔔 Intelligent Notifications
+![Smart Notifications](assests/screenshots/notification.png)
+*Stay ahead of food waste with proactive alerts. The app sends daily push notifications listing exactly which items need to be used today.*
 
-### 🛒 Automated Shopping Cart
-![Shopping Cart](assests/screenshots/cart.png)
-*Your grocery list, modernized. The app tracks what you're running low on and automatically moves used or expired items to your cart, ready for your next trip.*
+### 🔍 AI Receipt Scanner & Review
+![Receipt Scanner](assests/screenshots/scanner.png) | ![Confirm Stock](assests/screenshots/confirm_stock.png)
+--- | ---
+*Add your groceries in seconds. After scanning, review your items and quickly assign shelf-life presets (7d, 14d, 90d) or set custom dates.*
 
 ### 🍳 Intelligent Recipe Engine
-![Smart Recipes](assests/screenshots/recipes.png)
-*Discover what's for dinner based on what you have. The "Smart Recipes" engine suggests meals using your current stock, highlighting exactly how many ingredients you already have ready.*
-
-### ⚙️ Personalized Experience
-![Settings & Recovery](assests/screenshots/settings.png)
-*Fully customizable with Light and Dark modes. Includes a "Recently Deleted" safety net to restore items accidentally removed from your inventory.*
+![Smart Recipes](assests/screenshots/recipes.png) | ![Recipe Details](assests/screenshots/recipe_details.png)
+--- | ---
+*Discover what's for dinner based on what you have. Every recipe comes with a full breakdown of ingredients and step-by-step instructions.*
 
 ---
 
 ## 🛠️ Tech Stack
 - **Framework**: [Expo](https://expo.dev/) / [React Native](https://reactnative.dev/)
-- **Database**: [Firebase Firestore](https://firebase.google.com/products/firestore) for real-time cloud sync
-- **Authentication**: Firebase Auth (Email/Password)
+- **Database**: [Firebase Firestore](https://firebase.google.com/products/firestore)
+- **Authentication**: Firebase Auth
 - **Recipe Data**: [Spoonacular API](https://spoonacular.com/food-api)
-- **Styling**: Custom "Deep Void" Design System (Vanilla CSS-in-JS)
+- **Styling**: Custom Design System (Dual-Theme Support)
 
 ## 🚀 Getting Started
 

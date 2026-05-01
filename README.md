@@ -7,33 +7,51 @@ Pantry Pal Pro is a state-of-the-art mobile application designed to eliminate fo
 
 ## ✨ Key Features
 
-### 🎨 Dual-Theme Experience
-![Light Mode Settings](assests/screenshots/settings_light.png) | ![Dark Mode Settings](assests/screenshots/settings.png)
+### 🔐 Secure Authentication
+![Login Screen](assests/screenshots/login.png) | ![Signup Screen](assests/screenshots/signup.png)
 --- | ---
-*Whether you prefer the **Deep Void** dark mode or the **Brilliant Light** theme, Pantry Pal Pro adapts to your style with a fully responsive and accessible UI.*
+*Protect your data with encrypted accounts. Pantry Pal Pro uses Firebase Authentication to ensure your inventory is synced safely across all your devices.*
 
-### 🚀 Custom Branding & Splash
+### 🚀 Custom Branding
 ![Splash Screen](assests/screenshots/splash_screen_final.png)
-*A professional, seamless splash screen welcomes you, featuring our custom-designed identity. From the first second, Pantry Pal Pro feels like a premium product.*
+*A professional, seamless splash screen featuring our custom-designed identity.*
 
-### 📊 Smart Inventory (Light & Dark)
-![Light Inventory](assests/screenshots/inventory_light.png) | ![Dark Inventory](assests/screenshots/inventory.png)
---- | ---
-*Stay organized in any light. Swipe to quickly add items to your cart or move them to the bin. Color-coded urgency bars keep your eyes focused on what matters.*
-
-### 🔔 Intelligent Notifications
-![Smart Notifications](assests/screenshots/notification.png)
-*Stay ahead of food waste with proactive alerts. The app sends daily push notifications listing exactly which items need to be used today.*
+### 📊 Smart Inventory Dashboard
+![Smart Inventory](assests/screenshots/inventory.png)
+*A high-contrast, real-time dashboard providing instant visibility into your stock. Features color-coded urgency indicators for items that are Expiring Soon or Expired.*
 
 ### 🔍 AI Receipt Scanner & Review
 ![Receipt Scanner](assests/screenshots/scanner.png) | ![Confirm Stock](assests/screenshots/confirm_stock.png)
 --- | ---
-*Add your groceries in seconds. After scanning, review your items and quickly assign shelf-life presets (7d, 14d, 90d) or set custom dates.*
+*Add groceries in seconds. After scanning, review your items and quickly assign shelf-life presets (7d, 14d, 90d).*
+
+### 📅 Precision Expiry Tracking
+![Shelf Life Picker](assests/screenshots/shelf_life_picker.png) | ![Smart Notifications](assests/screenshots/notification.png)
+--- | ---
+*Use the integrated calendar for custom dates and receive daily push notifications for items expiring soon.*
+
+### ⚡ Effortless Control
+![Swipe to Cart](assests/screenshots/swipe_action%20to%20cart.png) | ![Swipe to Delete](assests/screenshots/swipe_action%20to%20delete.png)
+--- | ---
+*Manage your pantry with fluid gestures. Swipe right to restock (Add to Cart) or left to remove (Move to Bin).*
+
+### 📜 Digital Archives
+![Receipt History](assests/screenshots/receipt_history.png)
+*Keep a searchable history of all your scanned bills and purchase dates.*
 
 ### 🍳 Intelligent Recipe Engine
 ![Smart Recipes](assests/screenshots/recipes.png) | ![Recipe Details](assests/screenshots/recipe_details.png)
 --- | ---
-*Discover what's for dinner based on what you have. Every recipe comes with a full breakdown of ingredients and step-by-step instructions.*
+*Discover what's for dinner based on your stock, with full step-by-step instructions.*
+
+### 🛒 Automated Shopping Cart
+![Shopping Cart](assests/screenshots/cart.png)
+*Your grocery list, automatically populated with used or expired items.*
+
+### 🎨 Dual-Theme Support
+![Light Mode Settings](assests/screenshots/settings_light.png) | ![Dark Mode Settings](assests/screenshots/settings.png)
+--- | ---
+*Pantry Pal Pro adapts to your style. Switch between the Deep Void dark mode or the Brilliant Light theme with a single tap.*
 
 ---
 
